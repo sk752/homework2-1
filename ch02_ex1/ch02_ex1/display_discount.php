@@ -33,7 +33,7 @@ $product_description_spec = htmlspecialchars($product_description);
 </head>
 <body>
     <main>
-        <h1>This page is under construction</h1>
+        <h1><b>Product Discount Calculator</b></h1>
 
         <label>Product Description:</label>
         <span><?php echo 'product_description'; ?></span><br>
