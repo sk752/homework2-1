@@ -10,6 +10,15 @@ $discount_percent = filter_input['discount_percent];
 $discount_amount = $list_price* ($discount_percentage/100);
 $discount_price = $list_price - $discount_amount;
 
+/*
+New formatted statements
+*/
+
+$list_price_formatted = "$" .numbter_format($list_price, 2);
+$discount_percentage_formatted = $discount_percentage."%";
+$discount_amount_formatted = "$".numer_format($discount_amount,2);
+$discount_price_formatted = "$" .number_format($prodeuct_description);
+
 
 
 
