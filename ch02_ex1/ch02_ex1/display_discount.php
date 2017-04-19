@@ -19,7 +19,9 @@ $discount_percentage_formatted = $discount_percentage."%";
 $discount_amount_formatted = "$".numer_format($discount_amount,2);
 $discount_price_formatted = "$" .number_format($prodeuct_description);
 
+$product_description_spec = htmlspecialchars($product_description);
 
+?>
 
 
 
