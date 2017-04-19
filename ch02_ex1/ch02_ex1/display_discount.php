@@ -5,7 +5,11 @@ $discount_percentage = $_POST ['discount_percentage'];
 
 $product_description = filter_input['product_description'];
 $list_price = filter_input['list_price'];
-$discount_percent = filter_input['discount_percent
+$discount_percent = filter_input['discount_percent];
+
+$discount_amount = $list_price* ($discount_percentage/100);
+$discount_price = $list_price - $discount_amount;
+
 
 
 
